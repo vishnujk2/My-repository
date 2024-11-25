@@ -1,0 +1,28 @@
+{% extends "home.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block title %}
+<title>Booking</title>
+{% endblock title %}
+
+{% block content %}
+<div class="position-relative text-center" style="max-width:100%">
+    <img src="{% static "/images/med.jpg" %}" class="img-fluid w-100 opacity-75" alt="background Image">
+
+
+<div class="position-absolute top-50 start-50 translate-middle bg-white bg-opacity-75 p-4 rounded shadow">
+    <h1>Book Your Doctor</h1>
+    <form action="" method="POST">
+    {% csrf_token %}
+    {{xyz|crispy}}
+
+    <button class="btn btn-success m-2" type="submit">Submit</button>
+</form>
+
+</div>
+</div>
+{% endblock content %}
+
+
+
+

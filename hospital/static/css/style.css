@@ -1,0 +1,44 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "poppins",sans-serif;
+}
+#navbar li:hover{
+    background-color: rgba(255, 255, 255, 0.384);
+    color: black;
+}
+.form-outline{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.form-control{
+    width: 0;
+}
+.main-section h1{
+    text-align: center;
+    margin: 12px;
+
+}
+.main-section p{
+    width: 97%;
+    margin: 20px;
+    font-size: 20px;
+}
+.main-section span{
+    font-weight: bolder;
+}
+.cont-sec{
+    margin: 50px;
+}
+.scnd-section {
+    width: 200px;
+    height: 30px;
+    margin: 12px;
+    padding: 0%;
+} */
+
+.scnd-section h1{
+    text-align: center;
+}
